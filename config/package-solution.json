@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "objectwin-cpms-dashboard-pipeline-summary-webpart",
+    "id": "56fdd95a-d13e-410a-84df-42a12f142331",
+    "version": "1.4.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/objectwin-cpms-dashboard-pipeline-summary-webpart.sppkg"
+  }
+}
