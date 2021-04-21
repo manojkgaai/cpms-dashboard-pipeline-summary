@@ -3,7 +3,7 @@
   "solution": {
     "name": "objectwin-cpms-dashboard-pipeline-summary-webpart",
     "id": "56fdd95a-d13e-410a-84df-42a12f142331",
-    "version": "1.4.0.0",
+    "version": "2.1.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false

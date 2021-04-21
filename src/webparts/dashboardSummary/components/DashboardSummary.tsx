@@ -164,7 +164,7 @@ export default class DashboardSummary extends React.Component<IDashboardSummaryP
       var thisweek = weekstartdispmonth + "/" + weekstartdispdate + " - " + weekenddispmonth + "/" + weekenddispdate;
       var thisweekstartdt = weekstartdispmonth + "/" + weekstartdispdate + "/" + weekstartdispyearval;
       var thisweekenddt = weekenddispmonth + "/" + weekenddispdate + "/" + weekenddispyearval;
-      var linkfilter = "("+this.props.startdtfield+" gt '"+thisweekstartdt+"') and ("+this.props.startdtfield+" lt '"+thisweekenddt+"')";
+      var linkfilter = "("+this.props.startdtfield+" ge '"+thisweekstartdt+"') and ("+this.props.startdtfield+" le '"+thisweekenddt+"')";
       console.log(linkfilter);
 
       var thisweekdata = PSobcndcount + PSobnpm + PSwtst + PSstarted + PSnoinit + PSinit + PSeverified;

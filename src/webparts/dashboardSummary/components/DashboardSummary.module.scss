@@ -17,6 +17,7 @@
       font-size: 13px;
       border-collapse: collapse;
       overflow: scroll;
+      color: black;
   }
 
   .divRow
@@ -51,9 +52,10 @@
       display:table-cell;
       table-layout: fixed;
       float:left;/*fix for  buggy browsers*/
-      width:70px;
+      width:75px;
       padding: 4px;
       border:1px solid  #666666;
+      text-align: center;
   }
 
   .divLabel
